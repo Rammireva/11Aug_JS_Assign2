@@ -1,0 +1,26 @@
+<html>
+<head><title>Advanced JS</title></head>
+<style type="text/css">
+    body{
+        text-align: center;
+    }
+</style>
+<body>
+<p>First Name: </p>
+<p>Last Name: </p>
+<p>E-Mail: </p>
+<p>Phone Number: </p>
+</body>
+<script type="application/javascript">
+    var user = {
+        first_name : 'Ramesh',
+        last_name : 'K',
+        email : 'rame_001@yahoo.co.in',
+        phone : '9986480503'
+    }
+    document.getElementsByTagName('p')[0].innerHTML += user.first_name;
+    document.getElementsByTagName('p')[1].innerHTML += user.last_name;
+    document.getElementsByTagName('p')[2].innerHTML += user.email;
+    document.getElementsByTagName('p')[3].innerHTML += user.phone;
+</script>
+</html>
